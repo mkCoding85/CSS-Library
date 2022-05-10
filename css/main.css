@@ -1,0 +1,17 @@
+@import url('./lib/index.css');
+
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Fontstyle */
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* :root {
+    --grid-gap-size: 32px;
+} */
+
+h1 {
+    padding: 10px 10px 0px 25px;
+}

@@ -1,0 +1,109 @@
+.cd-layout-grid__cell {
+    display: block;
+    box-sizing: border-box;
+    grid-column-end: span 4;
+
+    padding: 5px;
+    background-color: transparent;
+}
+
+.cd-layout-grid__cell.span-1 {
+    grid-column-end: span 1;
+}
+
+.cd-layout-grid__cell.span-2 {
+    grid-column-end: span 2;
+}
+
+.cd-layout-grid__cell.span-3 {
+    grid-column-end: span 3;
+}
+
+.cd-layout-grid__cell.span-4 {
+    grid-column-end: span 4;
+}
+
+.cd-layout-grid__cell.span-5 {
+    grid-column-end: span 5;
+}
+
+.cd-layout-grid__cell.span-6 {
+    grid-column-end: span 6;
+}
+
+.cd-layout-grid__cell.span-7 {
+    grid-column-end: span 7;
+}
+
+.cd-layout-grid__cell.span-8 {
+    grid-column-end: span 8;
+}
+
+.cd-layout-grid__cell.span-9 {
+    grid-column-end: span 9;
+}
+
+.cd-layout-grid__cell.span-10 {
+    grid-column-end: span 10;
+}
+
+.cd-layout-grid__cell.span-11 {
+    grid-column-end: span 11;
+}
+
+.cd-layout-grid__cell.span-12 {
+    grid-column-end: span 12;
+}
+
+@media (min-width: 600px) and (max-width: 839px) {
+
+    .cd-layout-grid__cell.span-tablet-1 {
+        grid-column-end: span 1;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-2 {
+        grid-column-end: span 2;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-3 {
+        grid-column-end: span 3;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-4 {
+        grid-column-end: span 4;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-5 {
+        grid-column-end: span 5;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-6 {
+        grid-column-end: span 6;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-7 {
+        grid-column-end: span 7;
+    }
+    
+    .cd-layout-grid__cell.span-tablet-8 {
+        grid-column-end: span 8;
+    }
+}
+
+@media (max-width: 599px) {
+    .cd-layout-grid__cell.span-phone-1 {
+        grid-column-end: span 1;
+    }
+    
+    .cd-layout-grid__cell.span-phone-2 {
+        grid-column-end: span 2;
+    }
+    
+    .cd-layout-grid__cell.span-phone-3 {
+        grid-column-end: span 3;
+    }
+    
+    .cd-layout-grid__cell.span-phone-4 {
+        grid-column-end: span 4;
+    }
+}
